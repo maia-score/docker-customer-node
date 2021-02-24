@@ -4,7 +4,7 @@ MAINTAINER Synx Enginnering Team <engineering@synx.ai>
 
 WORKDIR /srv/app
 
-RUN yarn && yarn add \
+RUN npm install && yarn install \
   short-uuid
 
 # execute original command
