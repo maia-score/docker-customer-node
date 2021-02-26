@@ -30,13 +30,11 @@ if [ "$1" = "strapi" ]; then
 
     if [ -f "yarn.lock" ]; then
 
-      yarn install && yarn add \
-        short-uuid
+      yarn install
 
     else
 
-      npm install && npm install \
-        short-uuid
+      npm install
 
     fi
 
